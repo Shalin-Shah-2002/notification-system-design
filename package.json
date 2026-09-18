@@ -1,0 +1,17 @@
+{
+  "name": "notification-system-design",
+  "version": "1.0.0",
+  "description": "Learning system design by building a load-tested notification pipeline: Express, Redis queue, worker pool, MongoDB, DLQ, Nginx LB, k6.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ioredis": "^6.0.0",
+    "mongoose": "^9.10.0"
+  }
+}
